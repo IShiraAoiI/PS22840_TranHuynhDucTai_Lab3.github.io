@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+label{
+    margin-bottom: 5px;
+}
+.form{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.width{
+   width: 300px;
+} 

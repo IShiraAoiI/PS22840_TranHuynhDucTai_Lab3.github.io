@@ -1,0 +1,14 @@
+table{
+    width: 80%;
+    min-height: 25em;
+    text-align: center;
+}
+tr:first-child{
+    background-color: lightblue;
+}
+tr:nth-child(2){
+    background-color: lightblue;
+}
+tr:nth-child(2n+3){
+    background-color:gray;
+}

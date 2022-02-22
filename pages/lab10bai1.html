@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10_Bai1</title>
+    <link rel="stylesheet" href="/css/lab10bai1.css">
+</head>
+
+<body>
+    <form action="#">
+        <div class="myform">
+            <label for="#" @tabindex="1">Họ và tên:</label><br>
+            <input type="text" name="" id="" class="form-control">
+
+        </div>
+        <div class="myform">
+            <label for="#">Quốc Tịch: </label> <br>
+            <input type="text" class="form-control" value="Việt Nam" readonly>
+
+        </div>
+        <div class="myform">
+            <label for="#" tabindex="2">Ghi chú:</label> <br>
+            <textarea class="form-control" cols="20" rows="2"></textarea>
+        </div>
+        <hr>
+        <div class="myform">
+            <button class="form-button" @tabindex="3">Thêm</button>
+            <button class="form-button" type="reset" @tabindex="4">Sửa</button>
+            <button class="form-button" disabled="disabled">Xoá</button>
+        </div>
+    </form>
+</body>
+
+</html>

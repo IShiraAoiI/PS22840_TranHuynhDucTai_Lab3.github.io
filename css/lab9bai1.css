@@ -1,0 +1,8 @@
+.boxcenter{
+    width: 80%;
+    height: 40px;
+    float: left;
+}
+body{
+    background-color: aqua;
+}
